@@ -3,3 +3,20 @@
 #Editorconfig eh um arquivo de configuracao padrao para ser lido em varios editores de texto e aplicar o que tem nele
 
 # Link e prettier sao juntados com plugins
+
+
+-- Estrutura do Projeto
+https://github.com/aluiziodeveloper/api-vendas/blob/main/project.md
+
+
+# Express
+# Insomnia
+
+
+-- TypeOrm
+eh um ORM que facilita a criacao e manipulacao de BD
+Tras um CRUD embutido, com create, save, find, findone, remove, relacionamentos, etc;
+
+
+-- DBeaver
+cliente de banco de dados
