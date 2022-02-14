@@ -1,0 +1,5 @@
+#Prettier eh um formatador automatico de codigo
+#lint eh um verificador de codigo, ve se esta ok
+#Editorconfig eh um arquivo de configuracao padrao para ser lido em varios editores de texto e aplicar o que tem nele
+
+# Link e prettier sao juntados com plugins
