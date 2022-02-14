@@ -20,3 +20,23 @@ Tras um CRUD embutido, com create, save, find, findone, remove, relacionamentos,
 
 -- DBeaver
 cliente de banco de dados
+
+-- Celebrate
+para validacao de dados
+(usa o @type/joi)
+
+
+# Biblioteca bcryptjs
+criptografia a senha, com chave hash
+
+
+-- Status Codes da API
+400 - Nao encontrado 
+401 - Nao autorizado
+500 - Erro interno
+
+# multer 
+para upload
+
+# Ehereal.email
+testes de email em dev
