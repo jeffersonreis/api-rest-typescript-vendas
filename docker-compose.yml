@@ -3,7 +3,7 @@ version: "3"
 services:
   db:
     build: .docker/postgres
-    container_name: apivendas-db
+    container_name: apiclientes-db
     restart: always
     tty: true
     ports:
@@ -13,11 +13,11 @@ services:
 
     environment:
       - POSTGRES_PASSWORD=docker
-      - POSTGRES_DB=apivendas
+      - POSTGRES_DB=apiclientes
   app:
     build: .
     entrypoint: .docker/entrypoint.sh
-    container_name: apivendas-app
+    container_name: apiclientes-app
     ports:
       - "3333:3333"
     volumes:
@@ -26,15 +26,9 @@ services:
       - db
       # - redis
 
-  # redis:
-  #   image: 'bitname/redis:latest'
-  #   container_name: apivendas-redis
-  #   environment:
-  #     - ALLOW_EMPTY_PASSWORD=yes
-
   pgadmin:
     image: dpage/pgadmin4
-    container_name: apivendas-pgadmin
+    container_name: apiclientes-pgadmin
     tty: true
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com

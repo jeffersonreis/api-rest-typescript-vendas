@@ -39,6 +39,7 @@ export default class UsersController {
 
       return response.json(user);
     } catch (err) {
+      console.log(err);
       next(err);
     }
   }
